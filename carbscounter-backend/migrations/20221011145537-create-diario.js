@@ -3,17 +3,12 @@
 module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable('Diarios', {
-      id: {
-        allowNull: false,
-        autoIncrement: true,
-        primaryKey: true,
-        type: Sequelize.INTEGER
-      },
       idusuario: {
         allowNull: false,
         type: Sequelize.STRING
       },
       data: {
+        primaryKey: true,
         allowNull: false,
         type: Sequelize.DATE
       },

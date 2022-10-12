@@ -3,12 +3,6 @@
 module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable('Medicos', {
-      id: {
-        allowNull: false,
-        autoIncrement: true,
-        primaryKey: true,
-        type: Sequelize.INTEGER
-      },
       nomeprofissional: {
         allowNull: false,
         type: Sequelize.STRING
@@ -26,6 +20,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       crm: {
+        primaryKey: true,
         allowNull: false,
         type: Sequelize.STRING
       },
