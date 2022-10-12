@@ -1,0 +1,129 @@
+<html lang= "pt-br">
+<head>
+<meta http-equiv= "Content-Type" content= "text/html; charset=iso-8859-1">
+<title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" type="text/css" href="stylepags.css" />
+<script>
+function init() {
+
+	window.addEventListener('load', init);
+}	
+</script>
+
+</head>
+
+<body>
+<script src="https://use.fontawesome.com/f7a4"></script>
+
+
+<div class="site">
+
+<div class="barra"> 
+
+<div class="dropdown">
+
+<button class="menu"> Menu </i>
+</button>
+ 
+<div class="dropdown-child">
+<center>
+<ul>
+<li><a href="artigos.html" target="_blank"> Sou diabético, e agora? </a></li>
+<li><a href="artigos.html" target="_blank"> Notícias</a></li> 
+<li><a href="sobrenos.html" target="_blank"> Sobre nós</a></li>
+<li><a href="tabela.html" target="_blank"> Tabela Nutricional </a></li>
+<li><a href="diario.html" target="_blank"> Diário Glicêmico </a></li>
+<li><a href="local.html" target="_blank"> Associações perto de você! </a></li>
+</center>
+<ul> 
+
+</div>
+</div>
+</div>
+
+<a href="loginpg.html"><button class="login"> Login </button></a>
+
+<header class="cabecalho">
+
+<div class="c">
+
+<img id="logo" src='img/logo5.png' height = '115px' width='135px'/>
+
+</div>
+
+</header>
+
+
+
+<div class="espaco"></div>
+
+
+
+
+</br>
+</br>
+</br>
+
+<div class="container" >
+
+<a class="links" id="paracadastro"></a>
+
+<a class="links" id="paralogin"></a>
+
+<div class="content">  
+ <!--FORMULÁRIO DE CADASTRO-->
+ <div id="cadastro">
+ <form method="post" action="redirecionaregistro.php"> 
+          <h1>Cadastro</h1> 
+           
+          <p> 
+
+   	    <label for="nome_cad">Nome</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Pedro de Paula" />
+          </p>
+
+	   <p>
+            <label for="email_cad">E-mail</label>
+            <input id="email_cad" name="email_cad" required="required" type="text" placeholder="pedrodepaula@gmail.com" />
+          </p>
+           
+      
+           
+          <p> 
+            <label for="senha_cad">Senha</label>
+            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="pedro1234"/>
+          </p>
+           
+          <p> 
+            <input type="submit" name="cadastrar" value="Cadastrar"/> 
+          
+</p>
+           
+          <p class="link"> 
+            Já tem conta?
+            <a href="loginpg.html"> Ir para Login </a>
+      
+   </p>
+        </form>
+    
+</div>
+
+</div>
+
+</div>
+
+</main>
+
+<footer class="rodape">
+        <ul class="icones">
+        <li><a href="https://github.com/BeatrizTrindade073/CarbsCounter" target="_blank"><img src="img/facebook.png" height = '20px' width='20px' alt="Icone do Facebook"></a></li>
+        <li><a href="https://github.com/BeatrizTrindade073/CarbsCounter" target="_blank"><img src="img/gmail.png" height = '20px' width='20px' alt="Icone do Gmail"></a></li>
+        <li><a href="https://github.com/BeatrizTrindade073/CarbsCounter" target="_blank"><img src="img/github.png" height = '20px' width='20px' alt="Icone do GitHub"></a></li>
+        </ul>
+  
+      &copy; Carbs Counter 2022  
+</footer>
+
+</body>
+</html>
