@@ -12,6 +12,6 @@ app.get("/usuarios", async (req, res) => {
     return res.status(200).json({ usuarios, diario, medico, conteudo });
 })
 
-console.log("Server started")
+console.log("Sei lá")
 
 app.listen(3333)
