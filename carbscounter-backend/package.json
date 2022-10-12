@@ -1,0 +1,21 @@
+{
+  "name": "carbscounter-backend",
+  "version": "1.0.0",
+  "description": "Backend do projetos CarbsCounter.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --watch .",
+    "test": "jest --watch src/tests"
+  },
+  "keywords": [
+    "diabetes"
+  ],
+  "author": "Beatriz Rodrigues, Beatriz Trindade e Gabriel Gail",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.0"
+  }
+}
